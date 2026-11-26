@@ -81,3 +81,15 @@ During this lab, I practiced:
 ## Project Goal
 
 - Practice Kubernetes deployment, monitoring, resource management, and troubleshooting as part of my Junior DevOps training.
+## Kubernetes Service
+
+The ClusterIP Service provides internal access to Nginx.
+
+Apply the Service manifest:
+
+    kubectl apply -f service.yaml
+
+Check the Service and endpoints:
+
+    kubectl get svc
+    kubectl get endpointslices
